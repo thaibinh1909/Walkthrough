@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -21,8 +21,11 @@
             // new sap.m.Text({
             //     text : "Hello World"
             // }).placeAt("content");
-            sap.ui.xmlview({
-                viewName : "sap.ui.demo.walkthrough.view.App"
+            // sap.ui.xmlview({
+            //     viewName : "sap.ui.demo.walkthrough.view.App"
+            // }).placeAt("content");
+            new sap.ui.core.ComponentContainer({
+                name : "sap.ui.demo.walkthrough"
             }).placeAt("content");
         });
     </script>
